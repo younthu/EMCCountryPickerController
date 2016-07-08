@@ -188,7 +188,7 @@ static const CGFloat kEMCCountryCellControllerMinCellHeight = 25;
     [searchBar setTranslatesAutoresizingMaskIntoConstraints:NO];
     searchBar.delegate = self;
     [searchBar sizeToFit];
-    searchBar.searchTextPositionAdjustment = UIOffsetMake(40, 0);
+    searchBar.searchTextPositionAdjustment = UIOffsetMake(20, 0);
     
     [rootView addSubview:searchBar];
     
